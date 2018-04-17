@@ -1,6 +1,5 @@
 libs/*
 mysqldata/*
-docker-compose.yml
 *pyc
 gemfinder.conf
 *.log
