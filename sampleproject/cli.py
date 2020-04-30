@@ -2,10 +2,10 @@
 import json
 import logging
 import sys
-import ConfigParser
+import configparser
 
 LOGGER = logging.getLogger(__name__)
-CONFIG = ConfigParser.ConfigParser()
+CONFIG = configparser.ConfigParser()
 
 #pylint: disable=invalid-name
 class ExampleStage(object): # pylint: disable=too-few-public-methods

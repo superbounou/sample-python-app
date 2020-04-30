@@ -6,12 +6,12 @@ high level support for doing this and that.
 
 import logging
 from logging.handlers import RotatingFileHandler
-import ConfigParser
+import configparser
 import sys
 import fire
 from sampleproject.cli import Cli
 
-CONFIG = ConfigParser.ConfigParser()
+CONFIG = configparser.ConfigParser()
 CONFIG.read("project.cfg")
 
 try:
